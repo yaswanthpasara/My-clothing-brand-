@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "declarationDir": "dist",
+    "jsx": "react-jsx",
+    "lib": ["es2022", "dom"]
+  },
+  "references": [
+    { "path": "../api-zod" }
+  ],
+  "include": ["src"]
+}
